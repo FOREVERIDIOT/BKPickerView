@@ -91,9 +91,9 @@
 
 -(void)button3Click
 {
-    BKPickerView * picker = [[BKPickerView alloc] initWithPickerDateStyle:BKPickerDateStyleDisplayYear | BKPickerDateStyleDisplayMonth | BKPickerDateStyleDisplayDay | BKPickerDateStyleDisplayHour | BKPickerDateStyleDisplayMinute | BKPickerDateStyleDisplaySecond selectDate:[NSDate date] remind:@"选择时间"];
-    picker.minDate = [NSDate dateWithTimeIntervalSince1970:1490084377];//2017-03-21 16:19:37
-    picker.maxDate = [NSDate dateWithTimeIntervalSince1970:1582855200];//2020-02-28 10:00:00
+    NSDate * minDate = [NSDate dateWithTimeIntervalSince1970:1490084377];//2017-03-21 16:19:37
+    NSDate * maxDate = [NSDate dateWithTimeIntervalSince1970:1582855200];//2020-02-28 10:00:00
+    BKPickerView * picker = [[BKPickerView alloc] initWithPickerDateStyle:BKPickerDateStyleDisplayYear | BKPickerDateStyleDisplayMonth | BKPickerDateStyleDisplayDay | BKPickerDateStyleDisplayHour | BKPickerDateStyleDisplayMinute | BKPickerDateStyleDisplaySecond selectDate:[NSDate date] maxDate:maxDate minDate:minDate remind:@"选择时间"];
     [picker setConfirmSelectDateCallback:^(NSDate * _Nonnull date) {
         NSLog(@"选取的时间:%@",date);
     }];

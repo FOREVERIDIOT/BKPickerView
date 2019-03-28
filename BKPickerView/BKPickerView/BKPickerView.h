@@ -86,19 +86,13 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param pickerDateStyle 选取器格式
  @param selectDate 当前选取日期
+ @param maxDate 最大日期
+ @param minDate 最小日期
  @param remind 选取器提示
  @return 选取器
  */
--(instancetype)initWithPickerDateStyle:(BKPickerDateStyle)pickerDateStyle selectDate:(nonnull NSDate *)selectDate remind:(nonnull NSString *)remind;
+-(instancetype)initWithPickerDateStyle:(BKPickerDateStyle)pickerDateStyle selectDate:(nullable NSDate *)selectDate maxDate:(nullable NSDate *)maxDate minDate:(nullable NSDate *)minDate remind:(nonnull NSString *)remind;
 
-/**
- 最大选取日期
- */
-@property (nonatomic,strong) NSDate * maxDate;
-/**
- 最小选取日期
- */
-@property (nonatomic,strong) NSDate * minDate;
 /**
  确认选取时间返回
  */
