@@ -7,50 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D05DB9121F8339400B55FEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D05DB9021F8339400B55FEE /* AppDelegate.m */; };
-		1D05DB9421F8339400B55FEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D05DB9321F8339400B55FEE /* ViewController.m */; };
-		1D05DB9721F8339400B55FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D05DB9521F8339400B55FEE /* Main.storyboard */; };
-		1D05DB9921F8339500B55FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D05DB9821F8339500B55FEE /* Assets.xcassets */; };
-		1D05DB9C21F8339500B55FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D05DB9A21F8339500B55FEE /* LaunchScreen.storyboard */; };
-		1D05DB9F21F8339500B55FEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D05DB9E21F8339500B55FEE /* main.m */; };
-		1D4CAE66224C943000ADB8E6 /* BKPickerToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CAE58224C943000ADB8E6 /* BKPickerToolsView.m */; };
-		1D4CAE67224C943000ADB8E6 /* NSDate+BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CAE5A224C943000ADB8E6 /* NSDate+BKPickerView.m */; };
-		1D4CAE68224C943000ADB8E6 /* BKPickerSelectDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CAE5B224C943000ADB8E6 /* BKPickerSelectDateTools.m */; };
-		1D4CAE69224C943000ADB8E6 /* BKPickerReusingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CAE5D224C943000ADB8E6 /* BKPickerReusingModel.m */; };
-		1D4CAE6A224C943000ADB8E6 /* BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CAE61224C943000ADB8E6 /* BKPickerView.m */; };
-		1D4CAE6B224C943000ADB8E6 /* BKPickerConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CAE62224C943000ADB8E6 /* BKPickerConstant.m */; };
-		1D4CAE6C224C943000ADB8E6 /* UIView+BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4CAE64224C943000ADB8E6 /* UIView+BKPickerView.m */; };
+		1DC604522326666900955081 /* BKPickerConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC604442326666900955081 /* BKPickerConstant.m */; };
+		1DC604532326666900955081 /* BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC604452326666900955081 /* BKPickerView.m */; };
+		1DC604542326666900955081 /* BKPickerToolsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC604462326666900955081 /* BKPickerToolsView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC604552326666900955081 /* BKPickerSelectDateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC604472326666900955081 /* BKPickerSelectDateTools.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC604562326666900955081 /* BKPickerReusingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC604482326666900955081 /* BKPickerReusingModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC604572326666900955081 /* BKPickerConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC604492326666900955081 /* BKPickerConstant.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC604582326666900955081 /* BKPickerReusingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6044A2326666900955081 /* BKPickerReusingModel.m */; };
+		1DC604592326666900955081 /* BKPickerSelectDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6044B2326666900955081 /* BKPickerSelectDateTools.m */; };
+		1DC6045A2326666900955081 /* BKPickerToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6044C2326666900955081 /* BKPickerToolsView.m */; };
+		1DC6045B2326666900955081 /* BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6044D2326666900955081 /* BKPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC6045C2326666900955081 /* UIView+BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6044E2326666900955081 /* UIView+BKPickerView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC6045D2326666900955081 /* NSDate+BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6044F2326666900955081 /* NSDate+BKPickerView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC6045E2326666900955081 /* UIView+BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC604502326666900955081 /* UIView+BKPickerView.m */; };
+		1DC6045F2326666900955081 /* NSDate+BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC604512326666900955081 /* NSDate+BKPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D05DB8C21F8339400B55FEE /* BKPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D05DB8F21F8339400B55FEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1D05DB9021F8339400B55FEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D05DB9221F8339400B55FEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1D05DB9321F8339400B55FEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1D05DB9621F8339400B55FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1D05DB9821F8339500B55FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D05DB9B21F8339500B55FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1D05DB9D21F8339500B55FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D05DB9E21F8339500B55FEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1D4CAE58224C943000ADB8E6 /* BKPickerToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerToolsView.m; sourceTree = "<group>"; };
-		1D4CAE59224C943000ADB8E6 /* UIView+BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKPickerView.h"; sourceTree = "<group>"; };
-		1D4CAE5A224C943000ADB8E6 /* NSDate+BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BKPickerView.m"; sourceTree = "<group>"; };
-		1D4CAE5B224C943000ADB8E6 /* BKPickerSelectDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerSelectDateTools.m; sourceTree = "<group>"; };
-		1D4CAE5C224C943000ADB8E6 /* BKPickerConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerConstant.h; sourceTree = "<group>"; };
-		1D4CAE5D224C943000ADB8E6 /* BKPickerReusingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerReusingModel.m; sourceTree = "<group>"; };
-		1D4CAE5E224C943000ADB8E6 /* BKPickerSelectDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerSelectDateTools.h; sourceTree = "<group>"; };
-		1D4CAE5F224C943000ADB8E6 /* NSDate+BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BKPickerView.h"; sourceTree = "<group>"; };
-		1D4CAE60224C943000ADB8E6 /* BKPickerReusingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerReusingModel.h; sourceTree = "<group>"; };
-		1D4CAE61224C943000ADB8E6 /* BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerView.m; sourceTree = "<group>"; };
-		1D4CAE62224C943000ADB8E6 /* BKPickerConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerConstant.m; sourceTree = "<group>"; };
-		1D4CAE63224C943000ADB8E6 /* BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerView.h; sourceTree = "<group>"; };
-		1D4CAE64224C943000ADB8E6 /* UIView+BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKPickerView.m"; sourceTree = "<group>"; };
-		1D4CAE65224C943000ADB8E6 /* BKPickerToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerToolsView.h; sourceTree = "<group>"; };
+		1DC603F02326642500955081 /* BKPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC603F42326642500955081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC604442326666900955081 /* BKPickerConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerConstant.m; sourceTree = "<group>"; };
+		1DC604452326666900955081 /* BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerView.m; sourceTree = "<group>"; };
+		1DC604462326666900955081 /* BKPickerToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerToolsView.h; sourceTree = "<group>"; };
+		1DC604472326666900955081 /* BKPickerSelectDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerSelectDateTools.h; sourceTree = "<group>"; };
+		1DC604482326666900955081 /* BKPickerReusingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerReusingModel.h; sourceTree = "<group>"; };
+		1DC604492326666900955081 /* BKPickerConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerConstant.h; sourceTree = "<group>"; };
+		1DC6044A2326666900955081 /* BKPickerReusingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerReusingModel.m; sourceTree = "<group>"; };
+		1DC6044B2326666900955081 /* BKPickerSelectDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerSelectDateTools.m; sourceTree = "<group>"; };
+		1DC6044C2326666900955081 /* BKPickerToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerToolsView.m; sourceTree = "<group>"; };
+		1DC6044D2326666900955081 /* BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerView.h; sourceTree = "<group>"; };
+		1DC6044E2326666900955081 /* UIView+BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKPickerView.h"; sourceTree = "<group>"; };
+		1DC6044F2326666900955081 /* NSDate+BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BKPickerView.h"; sourceTree = "<group>"; };
+		1DC604502326666900955081 /* UIView+BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKPickerView.m"; sourceTree = "<group>"; };
+		1DC604512326666900955081 /* NSDate+BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BKPickerView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D05DB8921F8339400B55FEE /* Frameworks */ = {
+		1DC603ED2326642500955081 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,70 +53,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D05DB8321F8339400B55FEE = {
+		1DC603E62326642500955081 = {
 			isa = PBXGroup;
 			children = (
-				1D05DB8E21F8339400B55FEE /* BKPickerView */,
-				1D05DB8D21F8339400B55FEE /* Products */,
+				1DC603F22326642500955081 /* BKPickerView */,
+				1DC603F12326642500955081 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1D05DB8D21F8339400B55FEE /* Products */ = {
+		1DC603F12326642500955081 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D05DB8C21F8339400B55FEE /* BKPickerView.app */,
+				1DC603F02326642500955081 /* BKPickerView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D05DB8E21F8339400B55FEE /* BKPickerView */ = {
+		1DC603F22326642500955081 /* BKPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				1D05DBA521F833C500B55FEE /* BKPickerView */,
-				1D05DB8F21F8339400B55FEE /* AppDelegate.h */,
-				1D05DB9021F8339400B55FEE /* AppDelegate.m */,
-				1D05DB9221F8339400B55FEE /* ViewController.h */,
-				1D05DB9321F8339400B55FEE /* ViewController.m */,
-				1D05DB9521F8339400B55FEE /* Main.storyboard */,
-				1D05DB9821F8339500B55FEE /* Assets.xcassets */,
-				1D05DB9A21F8339500B55FEE /* LaunchScreen.storyboard */,
-				1D05DB9D21F8339500B55FEE /* Info.plist */,
-				1D05DB9E21F8339500B55FEE /* main.m */,
+				1DC604272326665A00955081 /* BKPickerView */,
+				1DC603F42326642500955081 /* Info.plist */,
 			);
 			path = BKPickerView;
 			sourceTree = "<group>";
 		};
-		1D05DBA521F833C500B55FEE /* BKPickerView */ = {
+		1DC604272326665A00955081 /* BKPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				1D4CAE5C224C943000ADB8E6 /* BKPickerConstant.h */,
-				1D4CAE62224C943000ADB8E6 /* BKPickerConstant.m */,
-				1D4CAE60224C943000ADB8E6 /* BKPickerReusingModel.h */,
-				1D4CAE5D224C943000ADB8E6 /* BKPickerReusingModel.m */,
-				1D4CAE5E224C943000ADB8E6 /* BKPickerSelectDateTools.h */,
-				1D4CAE5B224C943000ADB8E6 /* BKPickerSelectDateTools.m */,
-				1D4CAE65224C943000ADB8E6 /* BKPickerToolsView.h */,
-				1D4CAE58224C943000ADB8E6 /* BKPickerToolsView.m */,
-				1D4CAE63224C943000ADB8E6 /* BKPickerView.h */,
-				1D4CAE61224C943000ADB8E6 /* BKPickerView.m */,
-				1D4CAE5F224C943000ADB8E6 /* NSDate+BKPickerView.h */,
-				1D4CAE5A224C943000ADB8E6 /* NSDate+BKPickerView.m */,
-				1D4CAE59224C943000ADB8E6 /* UIView+BKPickerView.h */,
-				1D4CAE64224C943000ADB8E6 /* UIView+BKPickerView.m */,
+				1DC604492326666900955081 /* BKPickerConstant.h */,
+				1DC604442326666900955081 /* BKPickerConstant.m */,
+				1DC604482326666900955081 /* BKPickerReusingModel.h */,
+				1DC6044A2326666900955081 /* BKPickerReusingModel.m */,
+				1DC604472326666900955081 /* BKPickerSelectDateTools.h */,
+				1DC6044B2326666900955081 /* BKPickerSelectDateTools.m */,
+				1DC604462326666900955081 /* BKPickerToolsView.h */,
+				1DC6044C2326666900955081 /* BKPickerToolsView.m */,
+				1DC6044D2326666900955081 /* BKPickerView.h */,
+				1DC604452326666900955081 /* BKPickerView.m */,
+				1DC6044F2326666900955081 /* NSDate+BKPickerView.h */,
+				1DC604512326666900955081 /* NSDate+BKPickerView.m */,
+				1DC6044E2326666900955081 /* UIView+BKPickerView.h */,
+				1DC604502326666900955081 /* UIView+BKPickerView.m */,
 			);
 			path = BKPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1DC603EB2326642500955081 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC6045B2326666900955081 /* BKPickerView.h in Headers */,
+				1DC604562326666900955081 /* BKPickerReusingModel.h in Headers */,
+				1DC604572326666900955081 /* BKPickerConstant.h in Headers */,
+				1DC604542326666900955081 /* BKPickerToolsView.h in Headers */,
+				1DC604552326666900955081 /* BKPickerSelectDateTools.h in Headers */,
+				1DC6045D2326666900955081 /* NSDate+BKPickerView.h in Headers */,
+				1DC6045C2326666900955081 /* UIView+BKPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		1D05DB8B21F8339400B55FEE /* BKPickerView */ = {
+		1DC603EF2326642500955081 /* BKPickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D05DBA221F8339500B55FEE /* Build configuration list for PBXNativeTarget "BKPickerView" */;
+			buildConfigurationList = 1DC603F82326642500955081 /* Build configuration list for PBXNativeTarget "BKPickerView" */;
 			buildPhases = (
-				1D05DB8821F8339400B55FEE /* Sources */,
-				1D05DB8921F8339400B55FEE /* Frameworks */,
-				1D05DB8A21F8339400B55FEE /* Resources */,
+				1DC603EB2326642500955081 /* Headers */,
+				1DC603EC2326642500955081 /* Sources */,
+				1DC603ED2326642500955081 /* Frameworks */,
+				1DC603EE2326642500955081 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -131,95 +134,69 @@
 			);
 			name = BKPickerView;
 			productName = BKPickerView;
-			productReference = 1D05DB8C21F8339400B55FEE /* BKPickerView.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 1DC603F02326642500955081 /* BKPickerView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1D05DB8421F8339400B55FEE /* Project object */ = {
+		1DC603E72326642500955081 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = BIKE;
 				TargetAttributes = {
-					1D05DB8B21F8339400B55FEE = {
-						CreatedOnToolsVersion = 10.1;
+					1DC603EF2326642500955081 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 1D05DB8721F8339400B55FEE /* Build configuration list for PBXProject "BKPickerView" */;
+			buildConfigurationList = 1DC603EA2326642500955081 /* Build configuration list for PBXProject "BKPickerView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 1D05DB8321F8339400B55FEE;
-			productRefGroup = 1D05DB8D21F8339400B55FEE /* Products */;
+			mainGroup = 1DC603E62326642500955081;
+			productRefGroup = 1DC603F12326642500955081 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D05DB8B21F8339400B55FEE /* BKPickerView */,
+				1DC603EF2326642500955081 /* BKPickerView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D05DB8A21F8339400B55FEE /* Resources */ = {
+		1DC603EE2326642500955081 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D05DB9C21F8339500B55FEE /* LaunchScreen.storyboard in Resources */,
-				1D05DB9921F8339500B55FEE /* Assets.xcassets in Resources */,
-				1D05DB9721F8339400B55FEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D05DB8821F8339400B55FEE /* Sources */ = {
+		1DC603EC2326642500955081 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D05DB9421F8339400B55FEE /* ViewController.m in Sources */,
-				1D4CAE66224C943000ADB8E6 /* BKPickerToolsView.m in Sources */,
-				1D4CAE6B224C943000ADB8E6 /* BKPickerConstant.m in Sources */,
-				1D4CAE67224C943000ADB8E6 /* NSDate+BKPickerView.m in Sources */,
-				1D05DB9F21F8339500B55FEE /* main.m in Sources */,
-				1D4CAE68224C943000ADB8E6 /* BKPickerSelectDateTools.m in Sources */,
-				1D4CAE6C224C943000ADB8E6 /* UIView+BKPickerView.m in Sources */,
-				1D05DB9121F8339400B55FEE /* AppDelegate.m in Sources */,
-				1D4CAE69224C943000ADB8E6 /* BKPickerReusingModel.m in Sources */,
-				1D4CAE6A224C943000ADB8E6 /* BKPickerView.m in Sources */,
+				1DC604522326666900955081 /* BKPickerConstant.m in Sources */,
+				1DC6045F2326666900955081 /* NSDate+BKPickerView.m in Sources */,
+				1DC604582326666900955081 /* BKPickerReusingModel.m in Sources */,
+				1DC6045E2326666900955081 /* UIView+BKPickerView.m in Sources */,
+				1DC6045A2326666900955081 /* BKPickerToolsView.m in Sources */,
+				1DC604592326666900955081 /* BKPickerSelectDateTools.m in Sources */,
+				1DC604532326666900955081 /* BKPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		1D05DB9521F8339400B55FEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D05DB9621F8339400B55FEE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1D05DB9A21F8339500B55FEE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D05DB9B21F8339500B55FEE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		1D05DBA021F8339500B55FEE /* Debug */ = {
+		1DC603F62326642500955081 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,6 +230,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -270,15 +248,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		1D05DBA121F8339500B55FEE /* Release */ = {
+		1DC603F72326642500955081 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,6 +292,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -323,50 +304,62 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		1D05DBA321F8339500B55FEE /* Debug */ = {
+		1DC603F92326642500955081 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 779S864B3K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BKPickerView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BIKE.BKPickerView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1D05DBA421F8339500B55FEE /* Release */ = {
+		1DC603FA2326642500955081 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 779S864B3K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BKPickerView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = BIKE.BKPickerView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -374,25 +367,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D05DB8721F8339400B55FEE /* Build configuration list for PBXProject "BKPickerView" */ = {
+		1DC603EA2326642500955081 /* Build configuration list for PBXProject "BKPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D05DBA021F8339500B55FEE /* Debug */,
-				1D05DBA121F8339500B55FEE /* Release */,
+				1DC603F62326642500955081 /* Debug */,
+				1DC603F72326642500955081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D05DBA221F8339500B55FEE /* Build configuration list for PBXNativeTarget "BKPickerView" */ = {
+		1DC603F82326642500955081 /* Build configuration list for PBXNativeTarget "BKPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D05DBA321F8339500B55FEE /* Debug */,
-				1D05DBA421F8339500B55FEE /* Release */,
+				1DC603F92326642500955081 /* Debug */,
+				1DC603FA2326642500955081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1D05DB8421F8339400B55FEE /* Project object */;
+	rootObject = 1DC603E72326642500955081 /* Project object */;
 }

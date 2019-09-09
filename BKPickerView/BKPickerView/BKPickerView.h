@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
+//! Project version number for BKPickerView.
+FOUNDATION_EXPORT double BKPickerViewVersionNumber;
+
+//! Project version string for BKPickerView.
+FOUNDATION_EXPORT const unsigned char BKPickerViewVersionString[];
+
 //普通格式
 typedef NS_ENUM(NSUInteger, BKPickerStyle) {
     BKPickerStyleSingle,                //单选

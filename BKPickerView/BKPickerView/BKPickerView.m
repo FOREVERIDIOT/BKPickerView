@@ -90,9 +90,9 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
         self.maxDate = maxDate;
         self.minDate = minDate;
         self.selectDate = selectDate;
-        NSUInteger maxDateSp = [self.maxDate timeIntervalSince1970];
-        NSUInteger minDateSp = [self.minDate timeIntervalSince1970];
         if (self.maxDate && self.minDate) {
+            NSUInteger maxDateSp = [self.maxDate timeIntervalSince1970];
+            NSUInteger minDateSp = [self.minDate timeIntervalSince1970];
             NSAssert(minDateSp < maxDateSp, @"最大时间小于最小时间");
         }
         if (!self.selectDate) {
@@ -198,7 +198,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
 
 -(void)dealloc
 {
-    NSLog(@"释放");
+//    NSLog(@"释放");
 }
 
 #pragma mark - 隐藏/显示
@@ -660,7 +660,6 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
     //最小到秒 不计毫秒
     NSUInteger maxDateSp = [self.maxDate timeIntervalSince1970];
     NSUInteger dateSp = [date timeIntervalSince1970];
-    NSLog(@"dateSp:%@ maxDateSp:%@",date,self.maxDate);
     if (dateSp > maxDateSp) {
         return YES;
     }

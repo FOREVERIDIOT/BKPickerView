@@ -11,7 +11,6 @@
 @implementation NSDate (BKPickerView)
 
 static NSCalendar * _calendar = nil;
-static NSDateFormatter * _dateFormatter = nil;
 
 #pragma mark - 日历/日期格式创建
 
@@ -24,15 +23,6 @@ static NSDateFormatter * _dateFormatter = nil;
     return _calendar;
 }
 
-+(NSDateFormatter*)dateFormatter
-{
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        _dateFormatter = [[NSDateFormatter alloc] init];
-    });
-    return _dateFormatter;
-}
-
 /**
  转化成年份
  
@@ -40,8 +30,7 @@ static NSDateFormatter * _dateFormatter = nil;
  */
 -(NSUInteger)bk_transformYear
 {
-    [NSDate dateFormatter].dateFormat = @"Y";
-    return [[[NSDate dateFormatter] stringFromDate:self] integerValue];
+    return [[NSDate calendar] component:NSCalendarUnitYear fromDate:self];
 }
 
 /**
@@ -51,8 +40,7 @@ static NSDateFormatter * _dateFormatter = nil;
  */
 -(NSUInteger)bk_transformMonth
 {
-    [NSDate dateFormatter].dateFormat = @"M";
-    return [[[NSDate dateFormatter] stringFromDate:self] integerValue];
+    return [[NSDate calendar] component:NSCalendarUnitMonth fromDate:self];
 }
 
 /**
@@ -62,8 +50,7 @@ static NSDateFormatter * _dateFormatter = nil;
  */
 -(NSUInteger)bk_transformDay
 {
-    [NSDate dateFormatter].dateFormat = @"d";
-    return [[[NSDate dateFormatter] stringFromDate:self] integerValue];
+    return [[NSDate calendar] component:NSCalendarUnitDay fromDate:self];
 }
 
 /**
@@ -73,8 +60,7 @@ static NSDateFormatter * _dateFormatter = nil;
  */
 -(NSUInteger)bk_transformHour
 {
-    [NSDate dateFormatter].dateFormat = @"H";
-    return [[[NSDate dateFormatter] stringFromDate:self] integerValue];
+    return [[NSDate calendar] component:NSCalendarUnitHour fromDate:self];
 }
 
 /**
@@ -84,8 +70,7 @@ static NSDateFormatter * _dateFormatter = nil;
  */
 -(NSUInteger)bk_transformMinute
 {
-    [NSDate dateFormatter].dateFormat = @"m";
-    return [[[NSDate dateFormatter] stringFromDate:self] integerValue];
+    return [[NSDate calendar] component:NSCalendarUnitMinute fromDate:self];
 }
 
 /**
@@ -95,8 +80,7 @@ static NSDateFormatter * _dateFormatter = nil;
  */
 -(NSUInteger)bk_transformSecond
 {
-    [NSDate dateFormatter].dateFormat = @"s";
-    return [[[NSDate dateFormatter] stringFromDate:self] integerValue];
+    return [[NSDate calendar] component:NSCalendarUnitSecond fromDate:self];
 }
 
 @end
