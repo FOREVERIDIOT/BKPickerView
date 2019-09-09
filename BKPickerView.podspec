@@ -6,7 +6,7 @@ spec.summary      = "a simple picker"
 spec.homepage     = "https://github.com/MMDDZ/BKPickerView"
 spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 spec.authors      = { "MMDDZ" => "694092596@qq.com" }
-spec.source       = { :git => "http://github.com/MMDDZ/BKPickerView.git", :tag => spec.version.to_s }
+spec.source       = { :git => "https://github.com/MMDDZ/BKPickerView.git", :tag => spec.version.to_s }
 
 spec.ios.deployment_target = '8.0'
 
