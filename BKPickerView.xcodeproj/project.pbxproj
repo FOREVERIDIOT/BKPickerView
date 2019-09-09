@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DC604522326666900955081 /* BKPickerConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC604442326666900955081 /* BKPickerConstant.m */; };
-		1DC604532326666900955081 /* BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC604452326666900955081 /* BKPickerView.m */; };
-		1DC604542326666900955081 /* BKPickerToolsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC604462326666900955081 /* BKPickerToolsView.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1DC604552326666900955081 /* BKPickerSelectDateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC604472326666900955081 /* BKPickerSelectDateTools.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1DC604562326666900955081 /* BKPickerReusingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC604482326666900955081 /* BKPickerReusingModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1DC604572326666900955081 /* BKPickerConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC604492326666900955081 /* BKPickerConstant.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1DC604582326666900955081 /* BKPickerReusingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6044A2326666900955081 /* BKPickerReusingModel.m */; };
-		1DC604592326666900955081 /* BKPickerSelectDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6044B2326666900955081 /* BKPickerSelectDateTools.m */; };
-		1DC6045A2326666900955081 /* BKPickerToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6044C2326666900955081 /* BKPickerToolsView.m */; };
-		1DC6045B2326666900955081 /* BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6044D2326666900955081 /* BKPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DC6045C2326666900955081 /* UIView+BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6044E2326666900955081 /* UIView+BKPickerView.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1DC6045D2326666900955081 /* NSDate+BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6044F2326666900955081 /* NSDate+BKPickerView.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1DC6045E2326666900955081 /* UIView+BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC604502326666900955081 /* UIView+BKPickerView.m */; };
-		1DC6045F2326666900955081 /* NSDate+BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC604512326666900955081 /* NSDate+BKPickerView.m */; };
+		1DC60470232673B000955081 /* BKPickerReusingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC60462232673AF00955081 /* BKPickerReusingModel.m */; };
+		1DC60471232673B000955081 /* BKPickerToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC60463232673AF00955081 /* BKPickerToolsView.m */; };
+		1DC60472232673B000955081 /* BKPickerSelectDateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC60464232673AF00955081 /* BKPickerSelectDateTools.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC60473232673B000955081 /* NSDate+BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC60465232673AF00955081 /* NSDate+BKPickerView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC60474232673B000955081 /* BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC60466232673AF00955081 /* BKPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC60475232673B000955081 /* NSDate+BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC60467232673AF00955081 /* NSDate+BKPickerView.m */; };
+		1DC60476232673B000955081 /* BKPickerConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC60468232673AF00955081 /* BKPickerConstant.m */; };
+		1DC60477232673B000955081 /* UIView+BKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC60469232673AF00955081 /* UIView+BKPickerView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC60478232673B000955081 /* BKPickerConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6046A232673AF00955081 /* BKPickerConstant.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC60479232673B000955081 /* UIView+BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6046B232673AF00955081 /* UIView+BKPickerView.m */; };
+		1DC6047A232673B000955081 /* BKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6046C232673AF00955081 /* BKPickerView.m */; };
+		1DC6047B232673B000955081 /* BKPickerSelectDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6046D232673AF00955081 /* BKPickerSelectDateTools.m */; };
+		1DC6047C232673B000955081 /* BKPickerReusingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6046E232673B000955081 /* BKPickerReusingModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1DC6047D232673B000955081 /* BKPickerToolsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6046F232673B000955081 /* BKPickerToolsView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DC603F02326642500955081 /* BKPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DC603F42326642500955081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DC604442326666900955081 /* BKPickerConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerConstant.m; sourceTree = "<group>"; };
-		1DC604452326666900955081 /* BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerView.m; sourceTree = "<group>"; };
-		1DC604462326666900955081 /* BKPickerToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerToolsView.h; sourceTree = "<group>"; };
-		1DC604472326666900955081 /* BKPickerSelectDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerSelectDateTools.h; sourceTree = "<group>"; };
-		1DC604482326666900955081 /* BKPickerReusingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerReusingModel.h; sourceTree = "<group>"; };
-		1DC604492326666900955081 /* BKPickerConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerConstant.h; sourceTree = "<group>"; };
-		1DC6044A2326666900955081 /* BKPickerReusingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerReusingModel.m; sourceTree = "<group>"; };
-		1DC6044B2326666900955081 /* BKPickerSelectDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerSelectDateTools.m; sourceTree = "<group>"; };
-		1DC6044C2326666900955081 /* BKPickerToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerToolsView.m; sourceTree = "<group>"; };
-		1DC6044D2326666900955081 /* BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerView.h; sourceTree = "<group>"; };
-		1DC6044E2326666900955081 /* UIView+BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKPickerView.h"; sourceTree = "<group>"; };
-		1DC6044F2326666900955081 /* NSDate+BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BKPickerView.h"; sourceTree = "<group>"; };
-		1DC604502326666900955081 /* UIView+BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKPickerView.m"; sourceTree = "<group>"; };
-		1DC604512326666900955081 /* NSDate+BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BKPickerView.m"; sourceTree = "<group>"; };
+		1DC604602326734200955081 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		1DC60462232673AF00955081 /* BKPickerReusingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerReusingModel.m; sourceTree = "<group>"; };
+		1DC60463232673AF00955081 /* BKPickerToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerToolsView.m; sourceTree = "<group>"; };
+		1DC60464232673AF00955081 /* BKPickerSelectDateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerSelectDateTools.h; sourceTree = "<group>"; };
+		1DC60465232673AF00955081 /* NSDate+BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BKPickerView.h"; sourceTree = "<group>"; };
+		1DC60466232673AF00955081 /* BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerView.h; sourceTree = "<group>"; };
+		1DC60467232673AF00955081 /* NSDate+BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BKPickerView.m"; sourceTree = "<group>"; };
+		1DC60468232673AF00955081 /* BKPickerConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerConstant.m; sourceTree = "<group>"; };
+		1DC60469232673AF00955081 /* UIView+BKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKPickerView.h"; sourceTree = "<group>"; };
+		1DC6046A232673AF00955081 /* BKPickerConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerConstant.h; sourceTree = "<group>"; };
+		1DC6046B232673AF00955081 /* UIView+BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKPickerView.m"; sourceTree = "<group>"; };
+		1DC6046C232673AF00955081 /* BKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerView.m; sourceTree = "<group>"; };
+		1DC6046D232673AF00955081 /* BKPickerSelectDateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKPickerSelectDateTools.m; sourceTree = "<group>"; };
+		1DC6046E232673B000955081 /* BKPickerReusingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerReusingModel.h; sourceTree = "<group>"; };
+		1DC6046F232673B000955081 /* BKPickerToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKPickerToolsView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,29 +72,21 @@
 		1DC603F22326642500955081 /* BKPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				1DC604272326665A00955081 /* BKPickerView */,
-				1DC603F42326642500955081 /* Info.plist */,
-			);
-			path = BKPickerView;
-			sourceTree = "<group>";
-		};
-		1DC604272326665A00955081 /* BKPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				1DC604492326666900955081 /* BKPickerConstant.h */,
-				1DC604442326666900955081 /* BKPickerConstant.m */,
-				1DC604482326666900955081 /* BKPickerReusingModel.h */,
-				1DC6044A2326666900955081 /* BKPickerReusingModel.m */,
-				1DC604472326666900955081 /* BKPickerSelectDateTools.h */,
-				1DC6044B2326666900955081 /* BKPickerSelectDateTools.m */,
-				1DC604462326666900955081 /* BKPickerToolsView.h */,
-				1DC6044C2326666900955081 /* BKPickerToolsView.m */,
-				1DC6044D2326666900955081 /* BKPickerView.h */,
-				1DC604452326666900955081 /* BKPickerView.m */,
-				1DC6044F2326666900955081 /* NSDate+BKPickerView.h */,
-				1DC604512326666900955081 /* NSDate+BKPickerView.m */,
-				1DC6044E2326666900955081 /* UIView+BKPickerView.h */,
-				1DC604502326666900955081 /* UIView+BKPickerView.m */,
+				1DC6046A232673AF00955081 /* BKPickerConstant.h */,
+				1DC60468232673AF00955081 /* BKPickerConstant.m */,
+				1DC6046E232673B000955081 /* BKPickerReusingModel.h */,
+				1DC60462232673AF00955081 /* BKPickerReusingModel.m */,
+				1DC60464232673AF00955081 /* BKPickerSelectDateTools.h */,
+				1DC6046D232673AF00955081 /* BKPickerSelectDateTools.m */,
+				1DC6046F232673B000955081 /* BKPickerToolsView.h */,
+				1DC60463232673AF00955081 /* BKPickerToolsView.m */,
+				1DC60466232673AF00955081 /* BKPickerView.h */,
+				1DC6046C232673AF00955081 /* BKPickerView.m */,
+				1DC60465232673AF00955081 /* NSDate+BKPickerView.h */,
+				1DC60467232673AF00955081 /* NSDate+BKPickerView.m */,
+				1DC60469232673AF00955081 /* UIView+BKPickerView.h */,
+				1DC6046B232673AF00955081 /* UIView+BKPickerView.m */,
+				1DC604602326734200955081 /* Info.plist */,
 			);
 			path = BKPickerView;
 			sourceTree = "<group>";
@@ -106,13 +98,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC6045B2326666900955081 /* BKPickerView.h in Headers */,
-				1DC604562326666900955081 /* BKPickerReusingModel.h in Headers */,
-				1DC604572326666900955081 /* BKPickerConstant.h in Headers */,
-				1DC604542326666900955081 /* BKPickerToolsView.h in Headers */,
-				1DC604552326666900955081 /* BKPickerSelectDateTools.h in Headers */,
-				1DC6045D2326666900955081 /* NSDate+BKPickerView.h in Headers */,
-				1DC6045C2326666900955081 /* UIView+BKPickerView.h in Headers */,
+				1DC60474232673B000955081 /* BKPickerView.h in Headers */,
+				1DC60478232673B000955081 /* BKPickerConstant.h in Headers */,
+				1DC60477232673B000955081 /* UIView+BKPickerView.h in Headers */,
+				1DC6047C232673B000955081 /* BKPickerReusingModel.h in Headers */,
+				1DC60472232673B000955081 /* BKPickerSelectDateTools.h in Headers */,
+				1DC6047D232673B000955081 /* BKPickerToolsView.h in Headers */,
+				1DC60473232673B000955081 /* NSDate+BKPickerView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,13 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC604522326666900955081 /* BKPickerConstant.m in Sources */,
-				1DC6045F2326666900955081 /* NSDate+BKPickerView.m in Sources */,
-				1DC604582326666900955081 /* BKPickerReusingModel.m in Sources */,
-				1DC6045E2326666900955081 /* UIView+BKPickerView.m in Sources */,
-				1DC6045A2326666900955081 /* BKPickerToolsView.m in Sources */,
-				1DC604592326666900955081 /* BKPickerSelectDateTools.m in Sources */,
-				1DC604532326666900955081 /* BKPickerView.m in Sources */,
+				1DC60470232673B000955081 /* BKPickerReusingModel.m in Sources */,
+				1DC6047A232673B000955081 /* BKPickerView.m in Sources */,
+				1DC60479232673B000955081 /* UIView+BKPickerView.m in Sources */,
+				1DC6047B232673B000955081 /* BKPickerSelectDateTools.m in Sources */,
+				1DC60471232673B000955081 /* BKPickerToolsView.m in Sources */,
+				1DC60476232673B000955081 /* BKPickerConstant.m in Sources */,
+				1DC60475232673B000955081 /* NSDate+BKPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +316,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BKPickerView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,7 +341,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BKPickerView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
