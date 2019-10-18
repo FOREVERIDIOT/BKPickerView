@@ -141,7 +141,7 @@ NS_INLINE CGFloat isIPhoneXSeries() {
             break;
     }
     [picker setConfirmSelectCallback:^(NSInteger selectIndex) {
-        NSLog(@"单选选中:%ld", selectIndex);
+        NSLog(@"单选选中:%ld", (long)selectIndex);
     }];
     [picker setConfirmSelectIndexsCallback:^(NSArray<NSNumber *> * _Nonnull selectIndexArr) {
         NSLog(@"多选选中:%@", selectIndexArr);

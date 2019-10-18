@@ -91,9 +91,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
         self.minDate = minDate;
         self.selectDate = selectDate;
         if (self.maxDate && self.minDate) {
-            NSUInteger maxDateSp = [self.maxDate timeIntervalSince1970];
-            NSUInteger minDateSp = [self.minDate timeIntervalSince1970];
-            NSAssert(minDateSp < maxDateSp, @"最大时间小于最小时间");
+            NSAssert([self.minDate timeIntervalSince1970] < [self.maxDate timeIntervalSince1970], @"最大时间小于最小时间");
         }
         if (!self.selectDate) {
             if (self.maxDate) {
@@ -536,12 +534,12 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
     }
     
     NSMutableString * dateStr = [NSMutableString string];
-    [dateStr appendFormat:@"%ld-", year];
-    [dateStr appendFormat:@"%ld-", month];
-    [dateStr appendFormat:@"%ld ", day];
-    [dateStr appendFormat:@"%ld:", [self getCurrentCorrespondingValueWithDateStyle:BKPickerDateStyleDisplayHour]];
-    [dateStr appendFormat:@"%ld:", [self getCurrentCorrespondingValueWithDateStyle:BKPickerDateStyleDisplayMinute]];
-    [dateStr appendFormat:@"%ld", [self getCurrentCorrespondingValueWithDateStyle:BKPickerDateStyleDisplaySecond]];
+    [dateStr appendFormat:@"%lu-", (unsigned long)year];
+    [dateStr appendFormat:@"%lu-", (unsigned long)month];
+    [dateStr appendFormat:@"%lu ", (unsigned long)day];
+    [dateStr appendFormat:@"%lu:", (unsigned long)[self getCurrentCorrespondingValueWithDateStyle:BKPickerDateStyleDisplayHour]];
+    [dateStr appendFormat:@"%lu:", (unsigned long)[self getCurrentCorrespondingValueWithDateStyle:BKPickerDateStyleDisplayMinute]];
+    [dateStr appendFormat:@"%lu", (unsigned long)[self getCurrentCorrespondingValueWithDateStyle:BKPickerDateStyleDisplaySecond]];
     
     NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
@@ -792,7 +790,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
             max_hour = 0;
             max_minute = 0;
             max_second = 0;
-            titleLab.text = [NSString stringWithFormat:@"%ld年",value];
+            titleLab.text = [NSString stringWithFormat:@"%lu年",(unsigned long)value];
         }else if ([type isEqualToString:@"月"]) {
             value = row % 12 + 1;
             NSUInteger year = self.selectDateTools.selectYear;
@@ -809,7 +807,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
             max_hour = 0;
             max_minute = 0;
             max_second = 0;
-            titleLab.text = [NSString stringWithFormat:@"%ld月",value];
+            titleLab.text = [NSString stringWithFormat:@"%lu月",(unsigned long)value];
         }else if ([type isEqualToString:@"日"]) {
             value = row % 31 + 1;
             NSUInteger year = self.selectDateTools.selectYear;
@@ -826,7 +824,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
             max_hour = 0;
             max_minute = 0;
             max_second = 0;
-            titleLab.text = [NSString stringWithFormat:@"%ld日",value];
+            titleLab.text = [NSString stringWithFormat:@"%lu日",(unsigned long)value];
         }else if ([type isEqualToString:@"时"]) {
             value = row % 24;
             NSUInteger year = self.selectDateTools.selectYear;
@@ -844,7 +842,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
             max_hour = value;
             max_minute = 0;
             max_second = 0;
-            titleLab.text = [NSString stringWithFormat:@"%ld时",value];
+            titleLab.text = [NSString stringWithFormat:@"%lu时",(unsigned long)value];
         }else if ([type isEqualToString:@"分"]) {
             value = row % 60;
             NSUInteger year = self.selectDateTools.selectYear;
@@ -863,7 +861,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
             max_hour = hour;
             max_minute = value;
             max_second = 0;
-            titleLab.text = [NSString stringWithFormat:@"%ld分",value];
+            titleLab.text = [NSString stringWithFormat:@"%lu分",(unsigned long)value];
         }else if ([type isEqualToString:@"秒"]) {
             value = row % 60;
             NSUInteger year = self.selectDateTools.selectYear;
@@ -883,7 +881,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
             max_hour = hour;
             max_minute = minute;
             max_second = value;
-            titleLab.text = [NSString stringWithFormat:@"%ld秒",value];
+            titleLab.text = [NSString stringWithFormat:@"%lu秒",(unsigned long)value];
         }
         
         BOOL isLessThan = NO;
@@ -927,7 +925,7 @@ typedef NS_ENUM(NSUInteger, BKPickerDisplayStyle) {
  */
 -(NSDate*)getDatePickerSelectTimeWithYearValue:(NSUInteger)yearValue monthValue:(NSUInteger)monthValue dayValue:(NSUInteger)dayValue hourValue:(NSUInteger)hourValue minuteValue:(NSUInteger)minuteValue secondValue:(NSUInteger)secondValue
 {
-    NSString * dateStr = [NSString stringWithFormat:@"%ld-%ld-%ld %ld:%ld:%ld", yearValue, monthValue, dayValue, hourValue, minuteValue, secondValue];
+    NSString * dateStr = [NSString stringWithFormat:@"%lu-%lu-%lu %lu:%lu:%lu", (unsigned long)yearValue, (unsigned long)monthValue, (unsigned long)dayValue, (unsigned long)hourValue, (unsigned long)minuteValue, (unsigned long)secondValue];
     
     NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
